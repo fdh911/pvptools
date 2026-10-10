@@ -1,0 +1,90 @@
+{
+    "crit": {
+        "sounds": [
+            "pvptools:crit1", 
+            "pvptools:crit2", 
+            "pvptools:crit3", 
+            "pvptools:crit4", 
+            "pvptools:crit5", 
+            "pvptools:crit6", 
+            "pvptools:crit7"
+        ]
+    },
+    "strong": {
+        "sounds": [
+            "pvptools:strong1", 
+            "pvptools:strong2", 
+            "pvptools:strong3", 
+            "pvptools:strong4", 
+            "pvptools:strong5", 
+            "pvptools:strong6", 
+            "pvptools:strong7", 
+            "pvptools:strong8", 
+            "pvptools:strong9", 
+            "pvptools:strong10"
+        ]
+    },
+    "weak": {
+        "sounds": [
+            "pvptools:weak1", 
+            "pvptools:weak2", 
+            "pvptools:weak3", 
+            "pvptools:weak4", 
+            "pvptools:weak5"
+        ]
+    },
+    "miss": {
+        "sounds": [
+            "pvptools:miss1", 
+            "pvptools:miss2", 
+            "pvptools:miss3", 
+            "pvptools:miss4", 
+            "pvptools:miss5"
+        ]
+    },
+    "epic": {
+        "sounds" : [
+            "pvptools:epic1"
+        ]
+    },
+    "combo1": {
+        "sounds" : [
+            "pvptools:combo1"
+        ]
+    },
+    "combo2": {
+        "sounds" : [
+            "pvptools:combo2"
+        ]
+    },
+    "combo3": {
+        "sounds" : [
+            "pvptools:combo3"
+        ]
+    },
+    "combo4": {
+        "sounds" : [
+            "pvptools:combo4"
+        ]
+    },
+    "combo5": {
+        "sounds" : [
+            "pvptools:combo5"
+        ]
+    },
+    "combo6": {
+        "sounds" : [
+            "pvptools:combo6"
+        ]
+    },
+    "combo7": {
+        "sounds" : [
+            "pvptools:combo7"
+        ]
+    },
+    "combo8": {
+        "sounds" : [
+            "pvptools:combo8"
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "pvptools",
+	"version": "${version}",
+	"name": "pvptools",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/pvptools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.github.fdh911.Pvptools",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "com.github.fdh911.client.PvptoolsClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"pvptools.mixins.json",
+		{
+			"config": "pvptools.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}
